@@ -30,7 +30,7 @@ var SplitFont = function(_element) {
       //-
       var delay = Math.abs(word.offset().left - _mouseX) * _delayVel;
       TweenMax.to(word.find(".c2"), _vel, {
-        "font-variation-settings": '"wght" ' + _wght + ', "wdth" 250',
+        "font-variation-settings": '"wght" ' + _wght + ', "KSHD" 100',
         delay: delay,
         overwrite: 5
       });
